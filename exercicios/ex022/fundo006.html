@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -15,11 +15,12 @@
             /* contain: tela fica 100% ajustavel tanto na altura quanto na largura
             auto: padrão - tela fica com 100% mas não ajusta
             cover: ajusta a imagem a 100% da vh na tela mesmo que faça pequenos cortes */
+            background-attachment: fixed;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
