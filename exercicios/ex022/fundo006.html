@@ -7,15 +7,22 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(../../Exercicios/ex022/imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: repeat-y;
             background-size: cover;
             /* contain: tela fica 100% ajustavel tanto na altura quanto na largura
             auto: padrão - tela fica com 100% mas não ajusta
-            cover: ajusta a imagem a 100% da vh na tela mesmo que faça pequenos cortes */
-            background-attachment: fixed;
+            cover: ajusta a imagem a 100% da vh na tela mesmo que faça pequenos cortes 
+            background-attachment: fixed; */
+
+            /* Shorhand - background 
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
