@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body, html {
+    background-color: lightgrey;
+}
+main {
+    display: inline-block;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+        
+}
+
+section {
+    width: 60%;
+    float: left;
+    background-color: white;
+    height: auto;
+    
+}
+
+aside {
+    width: 40%;
+    float: right;
+    
+}
+
+aside > img {
+    width: 100%;
+    max-height: 80vh;
+
+}
+
+iframe {
+display: block;
+margin: auto;
+
+}
