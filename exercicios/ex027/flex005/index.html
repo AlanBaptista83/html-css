@@ -13,12 +13,19 @@
 
         body {
             background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            
+
         }
 
         main {
             background-color: lightgreen;
-            height: 200px;
-            width: 100vw;
+            height: 80vh;
+            width: 80vw;
             display: flex;
             flex-flow: row nowrap;
             justify-content: center;
@@ -27,8 +34,19 @@
 
         section {
             background-color: lightseagreen;
-            height: 200px;
-            width: 200px;
+            height: 300px;
+            width: 300px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            background-color: red;
+            height: 150px;
+            width: 150px;
         }
 
     </style>
@@ -36,7 +54,10 @@
 <body>
     <main>
         <section>
-            <h1>Tela de Login</h1>
+            <div>
+                <h1>Tela de Login</h1>
+            </div>
+
         </section>
     </main>
 </body>
