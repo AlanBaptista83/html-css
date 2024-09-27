@@ -12,6 +12,8 @@
     background-color: lightgray;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
  }
 
  header {
@@ -54,10 +56,24 @@ nav > a:hover {
     transition: background-color .5s;
 }
 
- main {
+ body main {
     background-color: white;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
+    
+    max-width: 800PX;
+    align-self: center;
  }
+
+ div{
+    border: 1px dotted black;
+ }
+ div h2 {
+    border: 1px dotted black;
+ }
+ div p {
+    border: 1px dotted black;
+ }
+ 
